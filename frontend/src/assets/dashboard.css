@@ -1,0 +1,217 @@
+body {
+    font-size: .875rem;
+}
+
+.feather {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+}
+
+body {
+    margin: 0;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    background-color: rgb(246, 246, 246) !important;
+
+    bottom: 0;
+
+    left: 0;
+    z-index: 100;
+    /* Behind the navbar */
+    padding: 48px 0 0;
+    /* Height of navbar */
+    box-shadow: inset -1px 0 0 rgba(226, 225, 225, 0.1);
+}
+
+@media (max-width: 767.98px) {
+    .sidebar {
+        top: 5rem;
+    }
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* Scrollable contents if viewport is shorter than content. */
+}
+
+.sidebar .nav-link {
+    font-weight: 500;
+    color: #252422;
+}
+
+.sidebar .nav-link .feather {
+    margin-right: 4px;
+    color: #252422
+}
+
+.sidebar .nav-link.active {
+    color: rgb(240, 84, 27) !important;
+    font-weight: 500;
+}
+
+.bi-house-door {
+    color: rgb(240, 84, 27) !important;
+    font-weight: 500;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+    color: inherit;
+}
+
+.sidebar-heading {
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+
+/*
+       * Navbar
+       */
+* {
+    font-family: "Montserrat" sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.navbar-brand {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(245, 236, 236, 0.046);
+    box-shadow: inset -1px 0 0 rgba(241, 237, 237, 0.25);
+    letter-spacing: 1px !important;
+    font-weight: 600 !important;
+    font-family: 'Montserrat' !important;
+}
+
+.navbar .navbar-toggler {
+    top: .25rem;
+    right: 1rem;
+}
+
+.navbar .form-control {
+    padding: .75rem 1rem;
+    border-width: 0;
+    border-radius: 0;
+}
+
+.form-control-dark {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+    border-color: transparent;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+.create:hover {
+    background-color: #f66d36;
+    outline-style: none;
+    color: white !important;
+    border-color: #f66d36 !important;
+    font-weight: 500;
+}
+
+.fondDash {
+    background-color: #f66d36;
+    outline-style: none;
+    color: white !important;
+    border-color: #f66d36 !important;
+    font-weight: 500;
+}
+
+/***titre section**/
+.section-title {
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #f38b74;
+    margin: 4px 10px;
+  }
+
+  .section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    color: #0a0a0a;
+  }
+  
+  .section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    color: #0a0a0a;
+  }
+
+.Iconetext{
+    color: rgb(240, 84, 27);
+}
+
+#example > tbody > tr:nth-child(1) > td:nth-child(n){color: #0a0a0a !important;}

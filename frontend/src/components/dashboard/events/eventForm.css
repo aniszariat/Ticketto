@@ -1,0 +1,21 @@
+.form-check-input[type="checkbox"]:checked {
+  background-color: coral !important;
+  outline-color: coral !important;
+  border-color: coral !important;
+  color: rgba(238, 235, 234, 0.275) !important;
+}
+.form-check-input[type="radio"]:checked {
+  background-color: coral !important;
+  outline-color: coral !important;
+  border-color: coral !important;
+  color: rgba(238, 235, 234, 0.275) !important;
+}
+.ticketDataOk {
+  background-color: coral !important;
+  color: white !important;
+}
+/*
+.ticketDataNok {
+  background-color: rgb(59, 33, 23) !important;
+  color: white !important;
+} */

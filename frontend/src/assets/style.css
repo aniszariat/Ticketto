@@ -1,0 +1,236 @@
+
+
+img {
+  cursor: pointer;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat' sans-serif !important;
+
+}
+
+/*caroussel style******* */
+#carouselExampleCaptions>div.carousel-inner>div.carousel-item.active>img {
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+#carouselExampleCaptions>div.carousel-indicators>button:nth-child(n) {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+#carouselExampleCaptions>div.carousel-inner>div.carousel-item.active>img {
+  height: fit-content !important;
+}
+
+/***titre section**/
+.section-title {
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Montserrat", sans-serif;
+}
+
+.section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #f38b74;
+  margin: 4px 10px;
+}
+
+.section-title p {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  color: #0a0a0a;
+}
+
+.section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Montserrat", sans-serif;
+}
+
+.section-title p {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  color: #0a0a0a;
+}
+
+.Iconetext{
+  color: rgb(240, 84, 27);
+}
+
+/*event category*/
+.fondDash {
+background-color: #f66d36;
+outline-style: none;
+color: white !important;
+border-color: #f66d36 !important;
+font-weight: 400;
+border: none !important;
+}
+
+.cat1:hover ,.cat2:hover , .cat3:hover , .cat4:hover ,.cat5:hover , .cat6:hover{
+
+opacity: 75%;
+cursor: pointer;
+
+}
+
+/* Category Event*/
+
+
+.form-range::-webkit-slider-thumb {
+ width: 1rem;
+ height: 1rem;
+ margin-top: -0.25rem;
+ background-color: coral;
+ border: 0;
+ border-radius: 1rem;
+ -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+ transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+ -webkit-appearance: none;
+ appearance: none;
+ }
+ .form-check-input[type=checkbox]:checked{
+ background-color:coral!important;
+ outline-color: coral !important;
+ border-color: coral !important;
+ color:rgba(238, 235, 234, 0.275) !important;
+
+ }
+ .bi-eye:hover{color: coral;}
+
+/*contact*/
+
+/*----------------------------------*/
+
+
+.contact .info i {
+font-size: 20px;
+color: #556270;
+float: left;
+width: 44px;
+height: 44px;
+background: #edeff1;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50px;
+transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+padding: 0 0 0 60px;
+font-size: 22px;
+font-weight: 600;
+margin-bottom: 5px;
+color: #556270;
+}
+
+.contact .info p {
+padding: 0 0 0 60px;
+margin-bottom: 0;
+font-size: 14px;
+
+}
+
+.contact .info .email,
+.contact .info .phone {
+margin-top: 40px;
+}
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+color: #ed3c0d;
+
+}
+
+
+
+
+
+
+
+
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+border-radius: 0;
+box-shadow: none;
+font-size: 14px;
+border-radius: 4px;
+}
+
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
+border-color: #ed3c0d;
+}
+
+.contact .php-email-form input {
+height: 44px;
+}
+
+.contact .php-email-form textarea {
+padding: 10px 12px;
+}
+
+
+
+
+
+@-webkit-keyframes animate-loading {
+0% {
+  transform: rotate(0deg);
+}
+
+100% {
+  transform: rotate(360deg);
+}
+}
+
+@keyframes animate-loading {
+0% {
+  transform: rotate(0deg);
+}
+
+100% {
+  transform: rotate(360deg);
+}
+}
